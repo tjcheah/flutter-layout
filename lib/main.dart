@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               Padding(
                                 padding: EdgeInsets.only(left: 8, right: 8),
                                 child: Text(
-                                  list[index]["first_name"].toString()+" "+list[index]["first_name"].toString(),
+                                  list[index]["first_name"].toString()+" "+list[index]["last_name"].toString(),
                                   style: TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.bold
